@@ -20,16 +20,16 @@ namespace calculatrice
             
 
 
-            Console.WriteLine("a = addition");
+            Console.WriteLine("a ou + = addition");
             Console.WriteLine();
 
-            Console.WriteLine("s = soustraction");
+            Console.WriteLine("s ou - = soustraction");
             Console.WriteLine();
 
-            Console.WriteLine("m = multiplication");
+            Console.WriteLine("m ou * = multiplication");
                 Console.WriteLine();
 
-            Console.WriteLine("d =division");
+            Console.WriteLine("d ou / =division");
             Console.WriteLine();
 
            
@@ -44,13 +44,25 @@ namespace calculatrice
                     case "a":
                         Console.WriteLine(num1 + num2);
                         break;
+                    case "+":
+                        Console.WriteLine(num1 + num2);
+                        break;
                     case "s":
+                        Console.WriteLine(num1 - num2);
+                        break;
+                    case "-":
                         Console.WriteLine(num1 - num2);
                         break;
                     case "m":
                         Console.WriteLine(num1 * num2);
                         break;
+                    case "*":
+                        Console.WriteLine(num1 * num2);
+                        break;
                     case "d":
+                        Console.WriteLine(num1 / num2);
+                        break;
+                    case "/":
                         Console.WriteLine(num1 / num2);
                         break;
                     defaut: Console.WriteLine("veuillez ressayer");

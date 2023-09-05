@@ -12,7 +12,7 @@ namespace calculatrice
     {
         static void Main(string[] args)
         {
-            do
+            while (true) 
             { 
             Console.WriteLine("enter number");
             int num1 = Convert.ToInt32(Console.ReadLine());
@@ -55,7 +55,7 @@ namespace calculatrice
                         break;
                     defaut: Console.WriteLine("veuillez ressayer");
                         break;
-                } while ();
+                } 
             }
 
             

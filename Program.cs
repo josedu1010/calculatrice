@@ -14,7 +14,12 @@ namespace calculatrice
         {
             while (true) 
             { 
-            Console.WriteLine("enter number");
+            
+                Console.WriteLine("CALCULATRICE");
+                Console.WriteLine("_____________________");
+                Console.WriteLine();
+                
+                Console.WriteLine("enter number");
             int num1 = Convert.ToInt32(Console.ReadLine());
            
             

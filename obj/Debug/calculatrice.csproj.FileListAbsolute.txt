@@ -1,0 +1,7 @@
+H:\calculatrice\obj\Debug\calculatrice.csproj.AssemblyReference.cache
+H:\calculatrice\obj\Debug\calculatrice.csproj.CoreCompileInputs.cache
+H:\calculatrice\bin\Debug\calculatrice.exe.config
+H:\calculatrice\bin\Debug\calculatrice.exe
+H:\calculatrice\bin\Debug\calculatrice.pdb
+H:\calculatrice\obj\Debug\calculatrice.exe
+H:\calculatrice\obj\Debug\calculatrice.pdb

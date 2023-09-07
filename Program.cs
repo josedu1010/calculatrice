@@ -33,9 +33,10 @@ namespace calculatrice
                 Console.WriteLine("enter number");
                 int num1 = Convert.ToInt32(Console.ReadLine());
 
-                //TEXTE 2 
 
                 //EXPLIQUE a l'utilisateur comment ça marche les operations de la calculatrice
+                
+                //TEXTE 2 
 
                 Console.WriteLine("a ou + = addition");
                 Console.WriteLine();
@@ -58,10 +59,12 @@ namespace calculatrice
                 Console.WriteLine("enter number");//demande de nombre 
 
                 int num2 = Convert.ToInt32(Console.ReadLine());//prendre ce que l'utilisateur met pour le converetir en numero
-                //puis le remettre en bas avec les methodes pour soustraire ou faire les autres fonctions
-               
+                                                               //puis le remettre en bas avec les methodes pour soustraire ou faire les autres fonctions
+
+                // CASES DE OPERATIONS
+
                 switch (operateur)//pour permettre de differencier les differentes touches pour faire les operations
-                { // CASES DE OPERATIONS
+                { 
                     case "a":
                         result = Add(num1, num2);
 
@@ -123,56 +126,13 @@ namespace calculatrice
                         a = false;
                         break;
 
-                }
-
-
-
-
-
-
-
-
-                /* switch (operateur)
-                {
-                    case "a":
-                        Console.WriteLine(num1 + num2);
-                        break;
-                    case "+":
-                        Console.WriteLine(num1 + num2);
-                        break;
-                    case "s":
-                        Console.WriteLine(num1 - num2);
-                        break;
-                    case "-":
-                        Console.WriteLine(num1 - num2);
-                        break;
-                    case "m":
-                        Console.WriteLine(num1 * num2);
-                        break;
-                    case "*":
-                        Console.WriteLine(num1 * num2);
-                        break;
-                    case "d":
-                        Console.WriteLine(num1 / num2);
-                        break;
-                    case "/":
-                        Console.WriteLine(num1 / num2);
-                        break;
-                    defaut: Console.WriteLine("veuillez ressayer");
-                        break;
-                } */
-                // ANCIENNE MANIERE DE CODE SANS METHODE 
+                } 
 
                 Console.Clear();
             }
           
             while (a == true); //FIN de boucle
             
-
-
-
-
-
 
 
             Console.ReadLine(); //pour que quand la boucle finisse ça ne s'arrete pas 

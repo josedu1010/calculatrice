@@ -13,6 +13,13 @@ namespace calculatrice
     {
         static void Main(string[] args)
         {
+            /*José David Ravines Huayta
+             * ETML Papp stage 1
+             * Programme : Initiales
+             * 07.09.2023
+             * */
+            
+            
             //DEF DE "A" AVEC DEBUT DE BOUCLE 
             bool a = true;//deffinir que "a" est true avant la boucle 
             do//debut de la boucle

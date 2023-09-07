@@ -16,7 +16,7 @@ namespace calculatrice
             /*José David Ravines Huayta
              * ETML Papp stage 1
              * Programme : Initiales
-             * 07.09.2023
+             * DU 04.07.2023 AU 07.09.2023
              * */
             
             
